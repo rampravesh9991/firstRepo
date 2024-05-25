@@ -1,0 +1,90 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Feedback Form</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+            #box{
+                border: 1px solid black;
+                width: 500px;
+                height: 600px;
+                align-items: center;
+                box-sizing: border-box;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Feedback Form</h1>
+        <form id="box">
+            <br>
+            <div class="b1">
+                <label for="FeedbackType">Feedback Type</label>
+                <br>
+                <select>
+                    <option value="Happy">Happy</option>
+                    <option value="Hungry">Hungry</option>
+                    <option value="Sleepy">Sleepy</option>
+                    <option value="Fired_up">Fired up</option>
+                </select>
+            </div>
+            <br>
+            <div class="b1">
+                <label for="message">Message</label>
+                <br>
+                <textarea name="message" id="message" rows="4" cols="50">Type anything...</textarea>
+            </div>
+            <br>
+            <div class="b1">
+                <fieldset>
+                    <legend>Website Rating</legend>
+                    <br>
+                    <label for="excellent">Excellent</label>
+                    <input type="radio" name="excellent" id="excellent">
+                    <label for="good">Good</label>
+                    <input type="radio" name="good" id="good">
+                    <label for="average">Average</label>
+                    <input type="radio" name="average" id="average">
+                    <label for="poor">Poor</label>
+                    <input type="radio" name="poor" id="poor">
+                </fieldset>
+            </div>
+            <br>
+            <div class="b1">
+                <label for="age">Age</label>
+                <br>
+                <input type="range" name="age" id="age" min="10" max="100">
+            </div>
+            <br>
+            <div class="b1">
+                <label for="password">Password</label>
+                <br>
+                <input type="password" name="password" id="password" minlength="8">
+            </div>
+            <br>
+            <div class="b1">
+                <label for="website_url">Website URL</label>
+                <br>
+                <input type="url" name="url" id="url">
+            </div>
+            <br>
+            <div class="b1">
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div class="b1">
+                <label for="tc"> I agree to terms and conditions </label>
+                <br>
+                <input type="checkbox" name="check" id="check">
+            </div>
+            <br>
+            <button>Submit</button>
+        </form>
+    </body>
+    </html>
