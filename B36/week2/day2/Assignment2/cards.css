@@ -1,0 +1,25 @@
+.cards{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.cards:nth-child(1){
+    background-color: yellow;
+}
+.cards:nth-child(2){
+    background-color: pink;
+}
+.cards:nth-child(3){
+    background-color: green;
+}
+.cards:nth-child(4){
+    background-color: purple;
+}
+/* .cards:not(:hover){
+    opacity: 50%;
+} */
+
+.cards:hover ~div{
+    opacity: 50%;
+}

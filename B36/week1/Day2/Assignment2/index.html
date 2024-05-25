@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="feedType">Feedbackack Type</label>
+            <select name="feedType" id="feedType">
+                <option value="LMS">LMS Platform</option>
+                <option value="course">Course Platform</option>
+                <option value="Assignment">Assignment</option>
+                <option value="curriculum">Curriculum</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" cols="35">Tell me about yourself.</textarea>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Give your Rating</legend>
+                <div>
+                    <label for="1">1</label>
+                    <input type="radio" name="1" id="1">
+                </div>
+                <div>
+                    <label for="2">2</label>
+                    <input type="radio" name="2" id="2">
+                </div>
+                <div>
+                    <label for="3">3</label>
+                    <input type="radio" name="3" id="3">
+                </div>
+                <div>
+                    <label for="4">4</label>
+                    <input type="radio" name="4" id="4">
+                </div>
+                <div>
+                    <label for="5">5</label>
+                    <input type="radio" name="5" id="5">
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="range" name="age" id="age" min="10" max="100">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" name="password" id="password" minlength="8">
+        </div>
+        <div>
+            <label for="url">Your Linkedin</label>
+            <input type="url" name="url" id="url">
+        </div>
+        <fieldset>
+            <legend>Terms & conditions</legend>
+            <div>
+                <label for="pizza">Pizza</label>
+                <input type="checkbox" name="pizza" id="pizza">
+            </div>
+            <div>
+                <label for="chilli_potato">Chilli Potato</label>
+                <input type="checkbox" name="chilli_potato" id="chilli_potato">
+            </div>
+            <div>
+                <label for="momos">Momos</label>
+                <input type="checkbox" name="momos" id="momos">
+            </div>
+            <div>
+                <label for="Egg_rolls">Egg Rolls</label>
+                <input type="checkbox" name="Egg_rolls" id="Egg_rolls">
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" name="submit" id="submit">
+        </div>
+    </form>
+</body>
+</html>

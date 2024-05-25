@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    border: 1px solid black;
+    width: 100%;
+    height: 60px;
+}
+#rightnav{
+    width: 30%;
+    height: 100%;
+    margin-left: 450px;
+}
+nav>a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 40px;
+    color: black;
+}
+#logoimg{
+    margin-top: 3px;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+a>i{
+    font-size: 30px;
+}
+
+/* ------------------product section--------------- */
+#product{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.cards{
+    /* border: 1px solid green; */
+    width: 20%;
+    height: 50vh;
+    padding: 10px;
+}
+.cards>div:first-child{
+    /* border: 1px solid black; */
+}
+.cards>div:first-child>h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.cards>div:first-child>button{
+    color: orange;
+    padding: 0px 5px;
+}
+.cards>div:last-child{
+    /* border: 1px solid magenta; */
+    display: flex;
+    margin-top: 10px;
+}
+.cards>div:last-child>div:first-child{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+}
+.cards>div:last-child>div:first-child>h3+p{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.cards>div:last-child>div:last-child{
+    /* border: 1px solid teal; */
+}
+
+#banner{
+    width: 90%;
+    margin: 20px auto;
+
+}
+#banner>img{
+    width: 100%;
+}

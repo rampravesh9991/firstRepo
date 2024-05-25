@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cards{
+            border: 1px solid green;
+            height: 100px;
+            width: 40%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+        #cards>div{
+            border: 1px solid magenta;
+        }
+        #cards>div:first-child{
+            grid-area: ;
+        }
+    </style>
+</head>
+<body>
+    <div id="cards">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
