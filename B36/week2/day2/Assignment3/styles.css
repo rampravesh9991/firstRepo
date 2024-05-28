@@ -1,0 +1,23 @@
+table{
+    border-collapse: collapse;
+}
+thead{
+    font-size: 40px;
+}
+tr{
+    border: 1px solid black;
+}
+th,td{
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+tbody>tr:nth-child(3n){
+    color: green;
+    font-weight: bold;
+}
+/* tfoot>tr>td:first-child{
+    colspan: 2; its html attribute not css property
+} */
+tfoot{
+    background-color: yellow;
+}
