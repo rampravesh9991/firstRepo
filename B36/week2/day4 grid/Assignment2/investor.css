@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+header, section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.board-members img {
+    height: 100px;
+    margin: 0 20px;
+}
+
+.investors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+}
+
+.investor {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.investor img {
+    width: 100%;
+    height: auto;
+}
+
+.investor p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.investor span {
+    display: block;
+    font-size: 14px;
+    color: gray;
+}
