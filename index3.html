@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* @keyframes a1 {
+            50%{
+                #box>div:nth-child(1){
+                    transform: translate(200px);
+                }
+            }
+        } */
+        #box{
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: auto;
+            transition: transform 2s;
+            /* animation: a1 2s infinite; */
+        }
+        #box>div:nth-child(1){
+            background-color: blue;
+            transform: translate(200px);
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
