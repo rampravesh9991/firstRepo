@@ -1,0 +1,18 @@
+#square {
+  border: 1px solid green;
+  background-color: purple;
+  width: 200px;
+  height: 200px;
+}
+
+#circle {
+  border: 1px solid purple;
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: purple;
+}/*# sourceMappingURL=variable.css.map */

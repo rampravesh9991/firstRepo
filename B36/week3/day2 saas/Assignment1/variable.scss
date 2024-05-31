@@ -1,0 +1,18 @@
+$primary-color: purple;
+
+#square{
+    border: 1px solid green;
+    background-color: $primary-color;
+    width: 200px;
+    height: 200px;
+}
+#circle{
+    border: 1px solid $primary-color;
+    background-color: $primary-color;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+h1{
+    color: $primary-color;
+}
