@@ -1,0 +1,21 @@
+@mixin button-styles($border,$paddingV, $paddingH, $bgColor, $color){
+    border: $border;
+    padding: $paddingV $paddingH;
+    background-color: $bgColor;
+    color: $color;
+}
+button:nth-child(1){
+    @include button-styles(1px solid #ccc, 10px, 20px, #f0f0f0,#333 )
+}
+button:nth-child(2){
+    @include button-styles(2px dotted green, 100px, 200px, yellow,red )
+}
+button:nth-child(2){
+    @include button-styles(3px solid purple, 40px, 10px, grey,navy )
+}
+button:nth-child(4){
+    @include button-styles(4px dotted blue, 30px, 80px, magenta,green )
+}
+button:nth-child(5){
+    @include button-styles(5px solid orange, 10px, 20px, navy,black )
+}
