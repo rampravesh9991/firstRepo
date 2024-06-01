@@ -1,0 +1,8 @@
+@mixin double($base-width){
+    width: $base-width+$base-width;
+}
+div{
+    @include double(200px);
+    background-color: blue;
+    height: 200px;
+}

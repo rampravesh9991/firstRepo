@@ -1,0 +1,8 @@
+@mixin themed-colors($primary, $secondary, $teritory){
+    border : 1px solid $primary;
+    background-color: $secondary;
+    color: $teritory;
+}
+div{
+    @include themed-colors(black,blue,orange);
+}

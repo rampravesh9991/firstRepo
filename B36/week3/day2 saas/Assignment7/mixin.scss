@@ -1,0 +1,10 @@
+@mixin border-radius($radius,$width,$height){
+    border-radius: $radius;
+    width: $width;
+    height: $height
+}
+#box{
+    @include border-radius(20px,200px,200px);
+    border: 1px solid green;
+    background-color: purple;
+}
